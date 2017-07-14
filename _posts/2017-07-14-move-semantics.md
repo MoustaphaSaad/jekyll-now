@@ -330,10 +330,13 @@ So the move function consists of a single line and it's the same `static_cast` t
 
 > Now, we have two kinds of references, where && means "I don't care about what may happen to the object", and & meaning "I may care about what may happen to the object, so you better watch what you're doing". With this in mind, the collapsing rules flow naturally: C++ should collapse referecnces to && only if no one cares about what happens to the object:
 >
-> & & -> &
-> & && -> &
-> && & -> &
-> && && -> &&
+> [& & -> &]
+>
+> [& && -> &]
+>
+> [&& & -> &]
+>
+> [&& && -> &&]
 
 Simply think of the move function it's a generic function that accepts any type `T` if i pass to it `T` by reference the type would look like this `move(T& && value)` and it will resolve to `move(T&)` ... etc.
 
