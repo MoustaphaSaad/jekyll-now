@@ -7,15 +7,15 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Moustapha Saad
+tagline:          'C++ Plumber, loves Graphics and Compilers'
+description:      'A Software Engineer at <a href="http://jekyllrb.com" target="_blank">360Imaging</a> Working on C++/Graphics at work/day and on Compilers at home/night. <a href="https://twitter.com/MoustaphaSaad" target="_blank">@MoustaphaSaad</a>.'
+url:              https://moustaphasaad.github.io
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Moustapha Saad'
+  url:            https://twitter.com/MoustaphaSaad
 
 paginate:         5
 
@@ -23,4 +23,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/MoustaphaSaad/MoustaphaSaad.github.io
