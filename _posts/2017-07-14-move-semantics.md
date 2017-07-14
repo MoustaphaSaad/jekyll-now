@@ -97,7 +97,7 @@ Beside this i will allow you to write code that will be executed when a value be
 
 So now you have two new toys to play with
 
-1. Copy Constructors
+- Copy Constructors
 
 ```c++
 Type(const Type& other)
@@ -109,7 +109,7 @@ Type(const Type& other)
 Type x(y);
 ```
 
-2. Copy assignment operator
+- Copy assignment operator
 
 ```c++
 Type&
