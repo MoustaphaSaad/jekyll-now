@@ -4,13 +4,14 @@ highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
+relative_permalinks: true
 
 # Setup
 title:            Moustapha Saad
 tagline:          'C++ Plumber, loves Graphics and Compilers'
 description:      'C++ Plumber, loves Graphics and Compilers. <a href="https://twitter.com/MoustaphaSaad" target="_blank">@MoustaphaSaad</a>.'
-url:              https://moustaphasaad.github.io
-baseurl:          /
+url:              https://moustaphasaad.github.io/
+baseurl:          https://moustaphasaad.github.io/
 
 author:
   name:           'Moustapha Saad'
